@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Champagne & Limousines";
+    src: url("polices/Comfortaa-Light.ttf");
+
+}
+
+body{
+
+    font-family: "Champagne & Limousines", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background:#E9EAE7;
+}
+
+.connexion
+{
+    background: white;
+    left: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    border-radius: 4px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+    padding: 5% 5%;
+    box-shadow: 2px 2px 12px #555;
+    text-align: center;
+}
+
+.mdp
+{
+    width:40%;
+    height: 200%;
+    border-radius: 4px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+}
+
+
+
+.form-control
+{
+    width: 50%;
+
+}
+
+.marge {
+    margin-bottom: 3px;
+}
+
+
+
+
+
+/*pageForms par ordre d'apparition sur la page*/
+
+#contenuForms
+{
+  background:#E9EAE7;
+}
+
+
+#creationForm,#formRecent
+{
+    left: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#formRecent
+{
+
+}
+
+.typesFormsImg
+{
+    border-radius: 4px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+    width:200px;
+    height:150px;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+.margin-left
+{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.typesFormsImg:hover
+{
+    border: solid #724DAE;
+    border-width: 1px 1px;
+}
+
+
+.imgForm
+{
+    width:20px;
+    height:20px;
+}
+
+.formFinal
+{
+    padding:  10px  15px 10px 15px;
+    background-color: white;
+    border-radius: 4px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+/*form1 par ordre d'apparition sur la page*/
+
+.conteneur
+{
+    background: white;
+    left: 50%;
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border-radius: 4px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+    padding: 5% 5%;
+    box-shadow: 2px 2px 12px #555;
+}
+
+/*Gestion de tous les imput du form*/
+
+
+.positionInputBase
+{
+    left: 50%;
+    margin-left: 20%;
+
+}
+.input_base
+{
+    border-radius: 4px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+
+}
+
+.titre,.description
+{
+    border-radius: 4px;
+    border: solid #1F97E1;
+    border-width: 2px 2px;
+    padding: 10px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.inputPourForm
+{
+    border-radius: 4px;
+    border: solid #D2D4D6;
+    border-width: 1px 1px;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.inputPourTitreQuestion
+{
+    border-radius: 4px;
+    border: solid #45ADED;
+    border-width: 1px 1px;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.formFinal:hover,.input_base:hover,.inputPourForm:hover,.inputPourTitreQuestion:hover
+{
+    border: solid #724DAE;
+    border-width: 1px 1px;
+}
+
+.titre:hover,.description:hover
+{
+    border: solid #724DAE;
+    border-width: 2px 2px;
+}
+#groupButton
+{
+    right: -20%;
+}
+
+.boutons
+{
+    flex-direction: column;
+    margin-left: -20px;
+
+}
+
+.inputNextToButton
+{
+    width: 85%;
+}
+
+.buttonsStyle
+{
+    margin-bottom: 7px;
+}
+
+.buttonsStyle:hover
+{
+    background-color: #724DAE;
+}
+
+#buttonEnvoyer,.btsListe,.buttonConnexion,.btsListe2
+{
+    border-radius: 4px;
+    padding: 1%;
+    background: none;
+    border: solid #724DAE;
+    border-width: 1px 1px;
+    color: #724DAE;
+}
+
+.buttonConnexion
+{
+    font-size: 20px;
+}
+
+.btsListe
+{
+    width: 40px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.btsListe2
+{
+    margin-left: 5px;
+    width: 40px;
+}
+
+#buttonEnvoyer:hover,.btsListe:hover,.buttonConnexion:hover,.btsListe2:hover
+{
+    color: white;
+    background: #724DAE;
+}
+
+.alignerRight
+{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#suppr
+{
+    position: absolute;
+    margin-left: 60px;
+    background: #724DAE;
+    color:white;
+    border-radius: 4px;
+    padding: 3px;
+    border: solid #724DAE;
+    border-width: 1px 1px;
+    font-size: 12px;
+}
+
+.fond
+{
+    background-color: #DB7EF0;
+}
+
+/* css sur la page de résultat*/
